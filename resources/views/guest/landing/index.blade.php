@@ -1,12 +1,8 @@
 @extends('guest.layout.app')
 @section('title', 'Home')
 @section('content')
-    <h1 class="text-white">HELLO</h1>
-    <h1 class="text-white">HELLO</h1>
-    <h1 class="text-white">HELLO</h1>
-    <h1 class="text-white">HELLO</h1>
-    <h1 class="text-white">HELLO</h1>
-    <h1 class="text-white">HELLO</h1>
-    <h1 class="text-white">HELLO</h1>
-    <h1 class="text-white">HELLO</h1>
+    @include('guest.landing.hero')
+    @include('guest.landing.features')
+    @include('guest.landing.cta')
+    @include('livewire.welcome.footer')
 @endsection

@@ -9,10 +9,20 @@
     </div>
     <div class="flex-none">
       <ul class="menu menu-horizontal px-1 text-white">
+        <div class="space-x-5">
+            <a href="https://github.com/CSaguinsin/BentoLio" target="_blank">
                 <button class="btn btn-active btn-neutral">
                     <img src="{{ asset('assets/logo/githubLogo.png') }}" class="h-[24px] w-[24px]" />
                     Github repo
                 </button>
+            </a>
+            <a href="https://www.producthunt.com/@carl_saguinsin" target="_blank">
+                <button class="btn btn-ghost  bg-[#B8564D]">
+                    <img src="{{ asset('assets/logo/producthuntLogo.png') }}" class="h-[24px] w-[24px]" />
+                    Vote BentoLio on Product Hunt
+                </button>
+            </a>
+        </div>
       </ul>
     </div>
   </div>
