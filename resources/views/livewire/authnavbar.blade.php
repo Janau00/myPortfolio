@@ -1,3 +1,22 @@
+<?php
+
+use function Livewire\Volt\{state};
+use App\Liveiwre\Actions\Logout;
+use Livewire\Volt\Component;
+
+new class extends Component
+{
+    /**
+     * Log the current user out of the application.
+     */
+    public function logout(Logout $logout): void
+    {
+        $logout();
+
+        $this->redirect('/', navigate: true);
+    }
+}; ?>
+
 <div class="navbar bg-[#161B22] rounded-lg py-4 px-4">
     <div class="flex-1">
       <a class=" text-xl">
@@ -10,18 +29,13 @@
     <div class="flex-none">
       <ul class="menu menu-horizontal px-1 text-white">
         <div class="space-x-5">
-            <a href="https://github.com/CSaguinsin/BentoLio" target="_blank">
-                <button class="btn btn-active btn-neutral">
-                    <img src="{{ asset('assets/logo/githubLogo.png') }}" class="h-[24px] w-[24px]" />
-                    Github
-                </button>
-            </a>
-            <a href="https://www.producthunt.com/@carl_saguinsin" target="_blank">
+            <form method="POST" action="{{ route('logout') }}">
+                @csrf
                 <button class="btn btn-ghost  bg-[#B8564D]">
-                    <img src="{{ asset('assets/logo/producthuntLogo.png') }}" class="h-[24px] w-[24px]" />
-                    Vote BentoLio on Product Hunt
+                    Logout
                 </button>
-            </a>
+            </form>
+
         </div>
       </ul>
     </div>

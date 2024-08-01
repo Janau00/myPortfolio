@@ -20,7 +20,7 @@
 <body class="bg-[#000000]">
     <main class="container mx-auto px-4">
         <div class="pt-5 pb-5">
-            @include('livewire.welcome.navigation') <!-- navigation bar for guests -->
+            {{-- @include('livewire.welcome.navigation') <!-- navigation bar for guests --> --}}
         </div>
         @yield('content')
     </main>

@@ -10,8 +10,13 @@
         </span>
     </h1>
     <div class="flex justify-center pt-5">
-        <button class="btn btn-active h-[5rem] w-[30rem] space-x-0  btn-neutral flex flex-col">
-            <p class="text-white text-[24px]">Start Now!</p>
-        </button>
+        @if (Route::has('register'))
+        <a href="{{ route('login') }}">
+            <button class="btn btn-active h-[5rem] w-[30rem] space-x-0 btn-neutral flex flex-col">
+                <p class="text-white text-[24px]">Start Now!</p>
+            </button>
+        </a>
+        @endif
+
     </div>
 </div>
