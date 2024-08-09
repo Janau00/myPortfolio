@@ -14,7 +14,7 @@
 
         @vite(['resources/sass/app.scss', 'resources/js/app.js'])
         @livewireStyles
-        @livewireScripts
+
 
 </head>
 <body class="bg-[#000000]">
@@ -24,5 +24,6 @@
         </div>
         @yield('content')
     </main>
+    @livewireScripts
 </body>
 </html>

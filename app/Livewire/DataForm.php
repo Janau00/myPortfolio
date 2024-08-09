@@ -2,13 +2,12 @@
 
 namespace App\Livewire;
 
-use Livewire\Component;
 use Livewire\WithFileUploads;
-use App\Models\BentoPortfolio;
-use Illuminate\Support\Facades\Log;
-
-class PortfolioForm extends Component
+use Livewire\Component;
+use App\Models\DataBento;
+class DataForm extends Component
 {
+
     use WithFileUploads;
 
     public $name;
@@ -23,6 +22,7 @@ class PortfolioForm extends Component
     public $profilepic;
     public $image2;
     public $image3;
+
 
     public function save()
     {
@@ -39,37 +39,29 @@ class PortfolioForm extends Component
             'instagram' => 'string|url|max:255',
             'facebook' => 'string|url|max:255',
             'threads' => 'string|url|max:255',
+
         ]);
 
-        try {
-            $profilepicPath = $this->profilepic ? $this->profilepic->store('photos', 'public') : null;
-            $image2Path = $this->image2 ? $this->image2->store('photos', 'public') : null;
-            $image3Path = $this->image3 ? $this->image3->store('photos', 'public') : null;
+        DataBento::create([
+            'name' => $this->name,
+            'introduction' => $this->introduction,
+            'pronouns' => $this->pronouns,
+            'occupation' => $this->occupation,
+            'about' => $this->about,
+            'twitter' => $this->twitter,
+            'instagram' => $this->instagram,
+            'facebook' => $this->facebook,
+            'threads' => $this->threads,
+            'profilepic' => $profilepicPath,
+            'image2' => $image2Path,
+            'image3' => $image3Path,
+        ]);
 
-            BentoPortfolio::create([
-                'name' => $this->name,
-                'introduction' => $this->introduction,
-                'pronouns' => $this->pronouns,
-                'occupation' => $this->occupation,
-                'about' => $this->about,
-                'twitter' => $this->twitter,
-                'instagram' => $this->instagram,
-                'facebook' => $this->facebook,
-                'threads' => $this->threads,
-                'profilepic' => $profilepicPath,
-                'image2' => $image2Path,
-                'image3' => $image3Path,
-            ]);
+        $this->resetForm();
 
-            $this->resetForm();
+        session()->flash('message', 'Documentation added successfully.');
 
-            session()->flash('message', 'Documentation added successfully.');
-
-            return redirect('/dashboard');
-        } catch (\Exception $e) {
-            Log::error('Error saving portfolio: ' . $e->getMessage());
-            session()->flash('error', 'There was an error saving your portfolio.');
-        }
+        return redirect('/dashboard');
     }
 
     public function resetForm()
@@ -88,8 +80,9 @@ class PortfolioForm extends Component
         $this->image3 = null;
     }
 
+
     public function render()
     {
-        return view('livewire.portfolio-form');
+        return view('livewire.data-form');
     }
 }

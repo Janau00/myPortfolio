@@ -11,12 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('bento_portfolio', function (Blueprint $table) {
+        Schema::create('portfoliodata', function (Blueprint $table) {
             $table->id();
             $table->string('name')->nullable();
-            $table->string('introduction')->nullable();
+            $table->string('introduction', 250)->nullable();
             $table->string('pronouns')->nullable();
-            $table->string('relationship_status')->nullable();
+            $table->string('about', 500)->nullable();
             $table->string('occupation')->nullable();
             $table->string('twitter')->nullable();
             $table->string('instagram')->nullable();
@@ -24,10 +24,10 @@ return new class extends Migration
             $table->string('threads')->nullable();
             $table->string('discord')->nullable();
             $table->string('tiktok')->nullable();
-            $table->string('profilepic')->nullable(); // Profile picture column
-            $table->string('image2')->nullable(); // Additional image column
-            $table->string('image3')->nullable(); // Additional image column
-            $table->timestamps();
+            $table->string('profilepic')->nullable();
+            $table->string('image2')->nullable();
+            $table->string('image3')->nullable();
+            $table->timestamps();   
         });
     }
 
@@ -36,6 +36,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('bento_portfolio');
+        Schema::dropIfExists('portfoliodata');
     }
 };

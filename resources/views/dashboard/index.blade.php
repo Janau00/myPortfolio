@@ -3,7 +3,8 @@
 @section('content')
 
 @include('livewire.authnavbar')
-    @include('dashboard.dashboard-hero')
-    @include('livewire.portfolio-form')
+@include('dashboard.dashboard-hero')
+<livewire:data-form />
 @include('livewire.welcome.footer')
+
 @endsection

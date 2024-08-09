@@ -17,6 +17,5 @@
             </button>
         </a>
         @endif
-
     </div>
 </div>

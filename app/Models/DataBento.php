@@ -5,11 +5,10 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class BentoPortfolio extends Model
+class DataBento extends Model
 {
+    protected $table = 'portfoliodata';
     use HasFactory;
-
-    protected $table = 'bento_portfolio';
 
     protected $fillable = [
         'name',
@@ -26,4 +25,3 @@ class BentoPortfolio extends Model
         'image3',
     ];
 }
-
