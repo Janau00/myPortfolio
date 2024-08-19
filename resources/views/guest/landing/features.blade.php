@@ -1,24 +1,30 @@
 <section class="pt-[48px]">
 <div class="w-[65rem] mx-auto pb-[32px]">
         <h1 class="text-white text-center font-bold text-[72px] leading-tight">
-            Your Portfolio, Your Style, Your Vibe – Create, Showcase, and Shine with
+            - - -
             <span class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-                BentoLio!
+                !
             </span>
         </h1>
-        <p class="text-white font-medium text-[20px] w-[40rem] mx-auto text-center pt-5">Create unique, bento-style portfolios with ease. Customize your design, showcase your skills, and make a lasting impression. BentoLio – where your portfolio meets your style and vibe.</p>
+        <p class="text-white font-medium text-[20px] w-[40rem] mx-auto text-center pt-5">Passionate SWE student with an interest in innovative technology and problem-solving, dedicated to leveraging my skills in programming and software development. My interests include creating user-centric applications, exploring new technologies, and contributing to projects that drive efficiency and enhance user experiences. I am eager to apply my knowledge in real-world scenarios and collaborate on impactful projects.</p>
     </div>
 <div class="mx-auto grid max-w-4xl grid-flow-dense grid-cols-12 gap-4">
     <div class="col-span-12 row-span-2 md:col-span-6 rounded-lg border border-zinc-700 bg-zinc-800 p-6">
         <div class="mb-5">
             <img src="{{ asset('assets/graphic/me.jpg') }}" alt="avatar" class="mb-4 size-14 rounded-full">
             <div class="flex flex-row">
-            <span class="bg-blue-100 text-blue-800 text-xs font-bold me-2 px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300">Full Stack Software Developer</span>
+            <span class="bg-blue-100 text-blue-800 text-xs font-bold me-2 px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300">PDF Classification Website</span>
             <div class="badge badge-ghost italic font-medium">He/Him</div>
             </div>
         </div>
-        <h1 class="mb-2 text-4xl font-medium leading-tight text-white">
-            Hi, I'm Jana and I love to build cool little software like this one 👨‍💻
+        <h1 class="mb-2 text-1xl font-medium leading-tight text-white">
+        Developed a web application that classifies PDF documents using Django as the backend framework. Leveraged Python for implementing the classification algorithms and integrated them into the web application. Designed the front end using CSS for a responsive and user-friendly interface.
+          
+Key Features:
+<br>
+- Automated PDF classification based on content.
+<br>
+- Intuitive and responsive UI for ease of use. 👨‍💻
         </h1>
     </div>
     <div class="col-span-12 row-span-2 md:col-span-6 rounded-lg border border-zinc-700 bg-cover bg-center p-6" style="background-image: url('{{ asset('assets/graphic/aesthethic.jpg') }}');">
