@@ -18,7 +18,7 @@
             </div>
         </div>
         <h1 class="mb-2 text-4xl font-medium leading-tight text-white">
-            Hi, I'm Carl and I love to build cool little software like this one 👨‍💻
+            Hi, I'm Jana and I love to build cool little software like this one 👨‍💻
         </h1>
     </div>
     <div class="col-span-12 row-span-2 md:col-span-6 rounded-lg border border-zinc-700 bg-cover bg-center p-6" style="background-image: url('{{ asset('assets/graphic/aesthethic.jpg') }}');">
