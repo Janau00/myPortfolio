@@ -35,7 +35,7 @@ Key Features:
             My passion is building cool stuff. <span class="text-zinc-400">I build primarily with Laravel, Livewire, TailwindCSS and AlpineJS. I love this stack so much because I can produce different little software at ease in just a span of a week.</span>
         </p>
     </div>
-    <div class="col-span-12 row-span-2 md:col-span-6 rounded-lg border border-zinc-700 bg-cover bg-center p-6" style="background-image: url('{{ asset('assets/graphic/aesthethic2.jpg') }}');">
+    <div class="col-span-12 row-span-2 md:col-span-6 rounded-lg border border-zinc-700 bg-cover bg-center p-6" style="round-image: url('{{ asset('assets/graphic/aesthethic2.jpg') }}');">
         <!-- Your content here -->
     </div>
 
