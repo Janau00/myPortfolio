@@ -6,7 +6,7 @@
                 Jana
             </span>
             <br>
-               Sophomore Software Engineering Student at  <span class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">KSU!</span>
+               Software Engineering Student at  <span class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">KSU!</span>
         </h1>
         {{-- <div class="flex justify-center pt-5">
             <button class="btn btn-active h-[5rem]  btn-neutral flex flex-col">
