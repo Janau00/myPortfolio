@@ -40,7 +40,7 @@ Key Features:
     </div>
 
     <div class="col-span-6 bg-black md:col-span-3 rounded-lg border border-zinc-700 p-6">
-        <a href="https://x.com/cj_sagnsn" target="_blank" class="grid h-full place-content-center text-3xl text-white">
+        <a href="https://x.com/ByteJana" target="_blank" class="grid h-full place-content-center text-3xl text-white">
             <div class="flex flex-col items-center">
                 <svg fill="none" height="25" width="25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                     <path d="M0 0h512v512H0z" fill="#000"/>
@@ -61,9 +61,9 @@ Key Features:
     </div>
 
     <div class="col-span-6 bg-[#0866FF] md:col-span-3 rounded-lg border border-zinc-700  p-6 h-[10rem]">
-        <a href="https://www.facebook.com/carlsaginsin/" target="_blank" class="grid h-full place-content-center text-3xl text-white">
+        <a href="https://www.linkedin.com/in/jana-alshreef-b54164289/" target="_blank" class="grid h-full place-content-center text-3xl text-white">
             <div class="flex flex-col items-center">
-                <svg height="25" width="25" viewBox="126.445 2.281 589 589"  xmlns="http://www.w3.org/2000/svg"><circle cx="420.945" cy="296.781" fill="#3c5a9a" r="294.5"/><path d="m516.704 92.677h-65.239c-38.715 0-81.777 16.283-81.777 72.402.189 19.554 0 38.281 0 59.357h-44.788v71.271h46.174v205.177h84.847v-206.531h56.002l5.067-70.117h-62.531s.14-31.191 0-40.249c0-22.177 23.076-20.907 24.464-20.907 10.981 0 32.332.032 37.813 0v-70.403z" fill="#fff"/>
+                <svg height="25" width="25" viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg"><circle cx="420.945" cy="296.781" fill="#3c5a9a" r="294.5"/><path d="M4.98 3.5C4.98 2.12 3.86 1 2.5 1S0 2.12 0 3.5 1.12 6 2.5 6 4.98 4.88 4.98 3.5zM.22 23.98h4.54V7.78H.22v16.2zM7.53 7.78v16.2h4.54V15.4c0-4.6 5.93-5 5.93 0v8.58h4.54V14.15c0-7.73-8.64-7.46-10.64-3.65v-2.72H7.53z" fill="#fff"/>
                 </svg>
 
             </div>
