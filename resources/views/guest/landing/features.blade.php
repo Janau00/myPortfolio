@@ -13,7 +13,9 @@
         <div class="mb-5">
             <!--///////THIS IS THE SMALL PHOTO <img src="{{ asset('assets/graphic/me.jpg') }}" alt="avatar" class="mb-4 size-14 rounded-full">-->
             <div class="flex flex-row">
-            <span class="bg-blue-100 text-blue-800 text-xs font-bold me-2 px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300">PDF Classification Website</span>
+            <a href="/assets/Beige Black Simple Digital Marketer CV.pdf" target="_blank" class="bg-blue-100 text-blue-800 text-xs font-bold me-2 px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300">
+                        Resume
+                    </a>
             <div class="badge badge-ghost italic font-medium"></div>
             </div>
         </div>
