@@ -6,7 +6,7 @@
                 !
             </span>
         </h1>
-        <p class="text-white font-medium text-[20px] w-[40rem] mx-auto text-center pt-5">Passionate SWE student with an interest in innovative technology and problem-solving, dedicated to leveraging my skills in programming and software development.</p>
+        <p class="text-white font-medium text-[20px] w-[40rem] mx-auto text-center pt-5"><!--Passionate SWE student with an interest in innovative technology and problem-solving, dedicated to leveraging my skills in programming and software development.--></p>
     </div>
 <div class="mx-auto grid max-w-4xl grid-flow-dense grid-cols-12 gap-4">
     <div class="col-span-12 row-span-2 md:col-span-6 rounded-lg border border-zinc-700 bg-zinc-800 p-6">
@@ -20,14 +20,15 @@
             </div>
         </div>
         <h1 class="mb-2 text-1xl font-medium leading-tight text-white">
-        Developed a web application that classifies PDF documents using Django as the backend framework. Leveraged Python for implementing the classification algorithms and integrated them into the web application. Designed the front end using CSS for a responsive and user-friendly interface.
+        <!--Developed a web application that classifies PDF documents using Django as the backend framework. Leveraged Python for implementing the classification algorithms and integrated them into the web application. Designed the front end using CSS for a responsive and user-friendly interface.
           
 Key Features:
 <br>
 - Automated PDF classification based on content.
 <br>
 - Intuitive and responsive UI for ease of use. 👨‍💻
-        </h1>
+        </h1>-->
+        Passionate Software Engineering student with an interest in innovative technology and problem-solving, dedicated to leveraging my skills in programming and software development. My interests include creating user-centric applications, exploring new technologies, and contributing to projects that drive efficiency and enhance user experiences. I am eager to apply my knowledge in real-world scenarios and collaborate on impactful projects.
     </div>
     <div class="col-span-12 row-span-2 md:col-span-6 rounded-lg border border-zinc-700 bg-cover bg-center p-6" style="background-image: url('{{ asset('assets/graphic/aesthethic3.jpeg') }}');">
         <!-- Your content here -->
