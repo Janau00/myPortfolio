@@ -31,8 +31,11 @@ Key Features:
         <!-- Your content here -->
     </div>
     <div class="col-span-12 text-3xl leading-snug rounded-lg border border-zinc-700 bg-zinc-800 p-6">
-        <p class="text-white">
-            My passion is building cool stuff. <span class="text-zinc-400">I build primarily with Laravel, Livewire, TailwindCSS and AlpineJS. I love this stack so much because I can produce different little software at ease in just a span of a week.</span>
+        <p class="text-zinc-400">
+        "Many of life’s failures are people who did not realize how close they were to success when they gave up.”
+        <br>
+        <span class="text-white">
+            Thomas A. Edison</span>
         </p>
     </div>
     <div class="col-span-12 row-span-2 md:col-span-6 rounded-lg border border-zinc-700 bg-cover bg-center p-6" style="background-image: url('{{ asset('assets/graphic/aesthethic4.jpeg') }}');">
