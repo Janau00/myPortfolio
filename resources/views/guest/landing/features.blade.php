@@ -28,7 +28,12 @@ Key Features:
 <br>
 - Intuitive and responsive UI for ease of use. 👨‍💻
         </h1>-->
-        Passionate Software Engineering student with an interest in innovative technology and problem-solving, dedicated to leveraging my skills in programming and software development. My interests include creating user-centric applications, exploring new technologies, and contributing to projects that drive efficiency and enhance user experiences. I am eager to apply my knowledge in real-world scenarios and collaborate on impactful projects.
+        <br>
+        Welcome aboard! I'm Jana, an enthusiastic SWE student with a deep interest in technology and solving problems. Just like the stars light up the night sky, this page reflects my ongoing efforts as a junior developer.
+        <br>
+        I hope you find it insightful !.
+        <br>
+        <br>
     </div>
     <div class="col-span-12 row-span-2 md:col-span-6 rounded-lg border border-zinc-700 bg-cover bg-center p-6" style="background-image: url('{{ asset('assets/graphic/aesthethic3.jpeg') }}');">
         <!-- Your content here -->
