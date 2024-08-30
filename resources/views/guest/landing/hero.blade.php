@@ -15,8 +15,9 @@
             </button>
         </div> --}}
 
-        <div class="pt-10">
-            <img src="{{ asset('assets/graphic/heroGraphicDesign.png') }}" alt="hero" >
+        <div class="pt-10 flex justify-center">
+            <img src="{{ asset('assets/logo/Screenshot 2024-08-30 at 2.19.28 PM.png') }}" alt="hero" >
+            
         </div>
     </div>
 
