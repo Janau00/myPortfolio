@@ -14,7 +14,7 @@
             <!--///////THIS IS THE SMALL PHOTO <img src="{{ asset('assets/graphic/me.jpg') }}" alt="avatar" class="mb-4 size-14 rounded-full">-->
             <div class="flex flex-row">
             <a href="/assets/Jana pdf -CV.pdf" target="_blank" class="bg-blue-100 text-blue-800 text-xs font-bold me-2 px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300">
-                        Resume
+            <u>Resume</u>
                     </a>
             <div class="badge badge-ghost italic font-medium"></div>
             </div>
@@ -29,7 +29,7 @@ Key Features:
 - Intuitive and responsive UI for ease of use. 👨‍💻
         </h1>-->
         <br>
-        Welcome aboard! I'm Jana, an enthusiastic SWE student with a deep interest in technology and solving problems.
+        Welcome aboard! I'm Jana, an enthusiastic SWE student with a deep interest in technology and solving problems 👨‍💻.
         <br>
          Just like the stars light up the night sky, this page reflects my ongoing efforts as a junior developer.
         <br>
@@ -38,7 +38,7 @@ Key Features:
         <br>
     </div>
     <div class="col-span-12 row-span-2 md:col-span-6 rounded-lg border border-zinc-700 bg-cover bg-center p-6" style="background-image: url('{{ asset('assets/graphic/aesthethic3.jpeg') }}');">
-        <!-- Your content here -->
+        
     </div>
     <div class="col-span-12 text-3xl leading-snug rounded-lg border border-zinc-700 bg-zinc-800 p-6">
         <p class="text-zinc-400">
@@ -49,7 +49,7 @@ Key Features:
         </p>
     </div>
     <div class="col-span-12 row-span-2 md:col-span-6 rounded-lg border border-zinc-700 bg-cover bg-center p-6" style="background-image: url('{{ asset('assets/graphic/aesthethic4.jpeg') }}');">
-        <!-- Your content here -->
+        
     </div>
 
     <div class="col-span-6 bg-black md:col-span-3 rounded-lg border border-zinc-700 p-6">
@@ -64,8 +64,10 @@ Key Features:
         </a>
     </div>
 
-
-    <div class="col-span-6 bg-gradient-to-r from-purple-900 via-purple-900 to-purple-900 md:col-span-3 rounded-lg border border-zinc-700 p-6 h-[10rem]">
+    
+    <div class="col-span-6 bg-[#722e98] md:col-span-3 rounded-lg border border-zinc-700  p-6 h-[10rem]">
+        
+    <!-- <div class="col-span-6 bg-gradient-to-r from-purple-900 via-purple-900 to-purple-900 md:col-span-3 rounded-lg border border-zinc-700 p-6 h-[10rem]"> -->
         <a href="https://github.com/Janau00" target="_blank" class="grid h-full place-content-center text-3xl text-white">
             <div class="flex flex-col items-center">
                <!-- <svg xmlns="http://www.w3.org/2000/svg" height="25" width="25" viewBox="0 0 24 24"><defs><radialGradient id="a" cx="332.14" cy="2511.81" r="3263.54" gradientUnits="userSpaceOnUse"><stop offset=".09" stop-color="#6e5494"/><stop offset=".78" stop-color="#6e5494"/></radialGradient><radialGradient id="b" cx="1516.14" cy="2623.81" r="2572.12" gradientUnits="userSpaceOnUse"><stop offset=".64" stop-color="#8c3aaa" stop-opacity="0"/><stop offset="1" stop-color="#8c3aaa"/></radialGradient></defs><path d="M12 1C5.925 1 1 5.925 1 12c0 4.851 3.438 8.898 8.099 9.785.591.109.802-.256.802-.57v-2.105c-3.301.716-3.994-1.591-3.994-1.591-.538-1.355-1.314-1.717-1.314-1.717-1.073-.734.084-.719.084-.719 1.186.084 1.808 1.216 1.808 1.216 1.054 1.802 2.763 1.28 3.437.979.107-.756.41-1.28.747-1.574-2.639-.3-5.421-1.319-5.421-5.871 0-1.296.465-2.355 1.232-3.186-.123-.3-.533-1.515.117-3.159 0 0 1.008-.323 3.303 1.217a11.5 11.5 0 0 1 6.008 0c2.293-1.54 3.3-1.217 3.3-1.217.652 1.644.242 2.86.12 3.159.769.831 1.23 1.89 1.23 3.186 0 4.563-2.785 5.569-5.436 5.863.422.364.801 1.086.801 2.191v3.253c0 .318.21.684.809.568C19.56 20.897 23 16.85 23 12 23 5.925 18.075 1 12 1z" fill="url(#b)"/></svg>-->
